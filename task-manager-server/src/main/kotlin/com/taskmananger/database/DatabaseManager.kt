@@ -14,7 +14,7 @@ class DatabaseManager {
     private val hostname = "Rajs-MacBook-Pro-3.local"
     private val databaseName = "TaskTrackerDB"
     private val username = "root"
-    private val password = "Puremercury1"
+    private val password = "password"
 
     //database
     private val ktormDatabase: Database
