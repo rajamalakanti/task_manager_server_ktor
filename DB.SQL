@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS TaskTrackerDB;
+USE TaskTrackerDB;
+
+CREATE TABLE IF NOT EXISTS task (
+    task_id INT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255),
+    done BOOLEAN
+);
+
